@@ -27,10 +27,22 @@ p#texto1 {
     
 }
 
+img#parte {
+    position: relative;
+    display: inline-block;
+    height: 97vh;
+    width: 90%;
+    
+    
+}
+
 img#foto1 {
     height: 80vh;
     margin: 5px;
-    border: 1px solid black;
-
-    
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    height: 76.5%;
+    width: 30vw;
+    border: 1px solid black; 
 }
