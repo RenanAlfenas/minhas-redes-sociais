@@ -14,24 +14,39 @@ main {
     
 }
 
-p#texto1 {
-    color: aliceblue;
-    width: 31vw;
-    text-align: center;
-    display: inline-block;
+h1#nome, h1#sobrenome {
     position: absolute;
-    top: 20px;
-    padding-left: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(0, 0, 0, 0.5);
-    
+    left: 40%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+    width: 10vw;
+
+}
+
+h1#nome {
+    top: 60px
+}
+
+h1#sobrenome {
+    top: 130px;
+    padding-left: 30px;
+}
+
+p {
+    color: aliceblue;
+    text-align: justify;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    padding: 20px;
 }
 
 img#parte {
     position: relative;
     display: inline-block;
     height: 97vh;
-    width: 90%;
+    width: 32%;
     
     
 }
@@ -42,7 +57,21 @@ img#foto1 {
     position: absolute;
     top: 85px;
     left: 0px;
-    height: 76.5%;
-    width: 30vw;
+    height: 460px;
+    width: 30%;
     border: 1px solid black; 
+}
+
+section#computador {
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, 10%);
+    margin-bottom: 80px;
+    background-image: url("../imagens/computador.png");
+    background-size: cover;
+    background-position: center center;
 }
